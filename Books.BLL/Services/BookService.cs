@@ -15,4 +15,16 @@ public class BookService : IBookService
     {
         throw new NotImplementedException();
     }
+
+    public List<BookModel> SortBooks(string sortyBy, string sortOrder)
+    {
+        throw new NotImplementedException();
+    }
+
+    public bool BookSearch(string input)
+    {
+        // todo basic search 
+        
+        throw new NotImplementedException();
+    }
 }
